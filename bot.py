@@ -213,10 +213,10 @@ async def tickets(q: CallbackQuery):
 async def buy(q: CallbackQuery):
     await q.message.edit_text(
         "🎟️ <b>КУПІВЛЯ КВИТКА</b>\n\n"
-"🎫 1 квиток — 500 грн.\n\n"
-"💳 Оплата через PUMB:\n"
-"https://mobile-app.pumb.ua/1TePE\n\n"
-"Після оплати надішліть підтвердження адміністратору."
+        "🎟️ 1 квиток — 500 грн.\n\n"
+        "💳 Оплата через PUMB:\n"
+        "https://mobile-app.pumb.ua/1TePE\n\n"
+        "Після оплати надішліть підтвердження адміністратору.",
         reply_markup=back(),
         parse_mode="HTML"
     )
